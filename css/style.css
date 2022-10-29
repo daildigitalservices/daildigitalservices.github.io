@@ -1,7 +1,14 @@
-body {
+body, html {
   font-family: "Poppins", sans-serif;
   color: #0c0c0c;
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
+  background-image: url('../images/bg-plain-1.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 100%;
 }
 
 .layout_padding {
@@ -41,19 +48,19 @@ body {
 .heading_container h2::before {
   content: "";
   position: absolute;
-  width: 9px;
+  width: 15px;
   height: 30px;
   top: 14%;
-  right: -15px;
-  background: -webkit-gradient(linear, left top, right top, from(#fb930a), to(#f5e47b));
-  background: linear-gradient(to right, #fb930a, #f5e47b);
+  right: -25px;
+  background: -webkit-gradient(linear, left top, right top, from(#00a8ff), to(#c3ebff));
+  background: linear-gradient(to right, #00a8ff, #c3ebff);
 }
 
 /*header section*/
 .hero_area {
   height: 100vh;
   position: relative;
-  background-image: url(../images/bg-plain-1.jpg);
+  /* background-image: url(../images/bg-plain-1.jpg); */
   background-size: cover;
   /* background-position: bottom right; */
   background-repeat: no-repeat;
@@ -275,8 +282,8 @@ a:focus {
 .slider_section .detail_box a {
   display: inline-block;
   padding: 8px 40px;
-  background-color: #0d0806;
-  border: 1px solid #0d0806;
+  background-color: #00a8ff;
+  border: 1px solid #00a8ff;
   color: #ffffff;
   border-radius: 0;
   margin: 35px 0;
@@ -284,7 +291,7 @@ a:focus {
 
 .slider_section .detail_box a:hover {
   background-color: transparent;
-  color: #0d0806;
+  color: #00a8ff;
 }
 
 .slider_section .img-box img {
@@ -374,6 +381,9 @@ a:focus {
 
 .about_section {
   position: relative;
+  /* background-image: url('../images/bg-plain-1.jpg'); */
+  background-color: #fbfbfb;
+  background-size: cover;
 }
 
 .about_section .design-box {
@@ -402,8 +412,8 @@ a:focus {
 .about_section .detail-box a {
   display: inline-block;
   padding: 8px 40px;
-  background-color: #0d0806;
-  border: 1px solid #0d0806;
+  background-color: #00a8ff;
+  border: 1px solid #00a8ff;
   color: #ffffff;
   border-radius: 0;
   margin-top: 35px;
@@ -411,7 +421,7 @@ a:focus {
 
 .about_section .detail-box a:hover {
   background-color: transparent;
-  color: #0d0806;
+  color: #00a8ff;
 }
 
 .about_section .img-box img {
@@ -419,7 +429,7 @@ a:focus {
 }
 
 .price_section {
-  background-color: #f8f8f8;
+  /* background-color: #f8f8f8; */
 }
 
 .price_section .price_container {
@@ -429,7 +439,7 @@ a:focus {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 40px 0;
+  padding: 20px 0;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
@@ -437,7 +447,7 @@ a:focus {
 .price_section .price_container .box {
   min-width: 300px;
   max-width: 360px;
-  height: 550px;
+  height: 450px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -488,7 +498,7 @@ a:focus {
 }
 
 .price_section .price_container .box .detail-box h5 span {
-  color: #fbb534;
+  color: #ff0000;
 }
 
 .price_section .price_container .box .detail-box a {
@@ -501,22 +511,22 @@ a:focus {
 }
 
 .price_section .price_container .box:hover a {
-  border-color: #fbb534;
-  color: #fbb534;
+  border-color: #00a8ff;
+  color: #00a8ff;
 }
 
 .price_section .price_btn {
   display: inline-block;
   padding: 8px 40px;
-  background-color: #0d0806;
-  border: 1px solid #0d0806;
+  background-color: #00a8ff;
+  border: 1px solid #00a8ff;
   color: #ffffff;
   border-radius: 0;
 }
 
 .price_section .price_btn:hover {
   background-color: transparent;
-  color: #0d0806;
+  color: #00a8ff;
 }
 
 .ring_section {
@@ -754,8 +764,8 @@ a:focus {
       -ms-flex-pack: center;
           justify-content: center;
   padding: 100px 10px 45px 10px;
-  background-color: #ffffff;
-  width: 500px;
+  background-color: #eeeeee;
+  width: 450px;
   border-radius: 0 0 50px 50px;
 }
 
@@ -808,7 +818,7 @@ a:focus {
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   border-radius: 5px;
-  background-color: #f8bf46;
+  background-color: #00a8ff;
 }
 
 .info_section .info_form form {
