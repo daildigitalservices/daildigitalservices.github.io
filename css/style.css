@@ -381,7 +381,6 @@ a:focus {
 
 .about_section {
   position: relative;
-  /* background-image: url('../images/bg-plain-1.jpg'); */
   background-color: #fbfbfb;
   background-size: cover;
 }
@@ -396,7 +395,7 @@ a:focus {
 }
 
 .about_section .design-box img {
-  width: 100%;
+  width: 100% !important;
 }
 
 .about_section .row {
@@ -675,6 +674,7 @@ a:focus {
 
 .contact_section {
   position: relative;
+  background-color: #fbfbfb !important;
 }
 
 .contact_section .design-box {
@@ -737,8 +737,9 @@ a:focus {
   border: none;
   border-radius: 30px;
   color: #fff;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f5e47b), to(#fb930a));
-  background: linear-gradient(to bottom, #f5e47b, #fb930a);
+  background: -webkit-gradient(linear, left top, left bottom, from(#bae8ff), to(#00a8ff));
+  /* #00a8ff), to(#c3ebff */
+  background: linear-gradient(to bottom, #bae8ff, #00a8ff);
   margin-top: 35px;
 }
 
